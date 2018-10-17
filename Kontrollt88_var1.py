@@ -18,7 +18,7 @@ def list_sum(numList):
 
 print(list_sum([1,10,5]))
 
-
+ 
 
 #Ülesanne 2
 #Kirjutage funktsiooni liblikas(string), mis võtab argumendiks lause (sõnad jagatud tühikutega) ja kui sõna algab tähega "a" asendab teda sõnaga "liblikas". Kui lauses on kaks või rohkem sõna mis algavad "a"-ga asendada ainult viimane.
