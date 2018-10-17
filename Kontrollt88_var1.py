@@ -11,9 +11,9 @@ def list_sum(numList):
     '''funktsioon listi sumeerimine '''
     tulemus=[]
     if len(numList) == 1:
-        tulemus = numList[0]
+        tulemus= numList[0]
     else:
-        tulemus = numList[0] + list_sum(numList[1:])
+        tulemus= numList[0] + list_sum(numList[1:])
     return tulemus    
 
 print(list_sum([1,10,5]))
@@ -29,15 +29,15 @@ print(list_sum([1,10,5]))
 def liblikas(lause):
     '''liblika funktsioon''' 
     uusLause= str.split(lause, " ")
-    uusLause=uusLause[::-1] # keera lause tagurpidi
+    uusLause=uusLause[::-1]
     esimeneSona=0
     sonaMassiivis=0
     while sonaMassiivis<len(uusLause):
-        if uusLause[sonaMassiivis][esimeneSona]=="a": # kontrolli ka sõnu, mis algavad suure A-ga
-            uusLause[sonaMassiivis]="liblikas"
-            return uusLause[::-1] # keera uuesti õiget pidi
-        else:
-            sonaMassiivis=sonaMassiivis+1
+            if uusLause[sonaMassiivis][esimeneSona]=="a":
+                uusLause[sonaMassiivis]="liblikas"
+                return uusLause[::-1]
+            else:
+                sonaMassiivis=sonaMassiivis+1
         
 
 lause="Kui alanud on allla"
