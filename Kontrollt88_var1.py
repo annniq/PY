@@ -68,4 +68,6 @@ muutuja1="AATVN"
 muutuja2="TAAVI"
 #muutuja1=str(input("Sisesta lause 1:")).upper()
 #muutuja2=str(input("Sisesta lause 2:")).upper()   
-print(common_symbols(muutuja1, muutuja2))    
+print(common_symbols(muutuja1, muutuja2))
+
+print("Tere tulemust")
